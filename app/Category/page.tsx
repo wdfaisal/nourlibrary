@@ -1,13 +1,19 @@
 "use client"
 import React from 'react'
 import Hedear from '@/components/shared/Hedear'
+import  {motion }from 'framer-motion';
 
 function page() {
   return (
     <>
    <Hedear/>
     <section className='w-full md:h-[150vh] h-[120vh] pt-5 flex flex-col items-center justify-center'>
-    <div className='max-container flex flex-col md:mt-[-10] py-0 items-center lg:min-h-[80vh]'>
+    <motion.div
+     initial={{opacity:0, y:10}}
+     animate={{opacity:100 ,y:0}}
+     transition={{duration:1 ,delay:0 }} 
+    
+    className='max-container flex flex-col md:mt-[-10] py-0 items-center lg:min-h-[80vh]'>
         <div className=' flex flex-col items-center justify-center gap-2 -mt-20 lg:mx-5'>
             <h1 className=' text-3xl tracking-tighter text-wrap text-center font-bold lg:text-6xl text-[#0C0B10]'>اكتشف عالماً من المعرفة<br/><span className='text-[#ffe695]'>اقسام مكتبتنا الإلكترونية</span></h1>
             <p className=' text-gray-500 text-md mt-1'>اكثر من 12الف كتاب من مختلفه المجالات</p>
@@ -50,7 +56,7 @@ function page() {
         
     
     
-  </div>
+  </motion.div>
 
     </section>
 

@@ -4,7 +4,9 @@ import book1 from '@/public/assets/book1.webp'
 import book2 from '@/public/assets/book2.webp'
 
 
-function Hotbooks() {
+
+function Hotbooks(props: any) {
+   
     return (
       <div className='max-container flex flex-col md:mt-[15] py-10 px-10 pt-5 mt-10 items-center h-auto lg:min-h-[80vh] bg-[#F1F1F1] '>
           <div className=' flex flex-col items-start w-full justify-start gap-2 pt-5 lg:mx-5'>
