@@ -53,7 +53,7 @@ function Hedear() {
  
   return (
     <>
-      <nav className='max-container-extra bg-white border-b-2 fixed md:right-32 z-50 w-full py-5 flex items-center justify-between px-7   '>
+      <nav className='max-container-extra bg-white border-b-2 gap-3 fixed md:right-32 z-50 w-full py-5 flex items-center justify-between px-7   '>
 
           <div className=" absolute">
               {/* Core Loader Modal */}
@@ -70,10 +70,10 @@ function Hedear() {
         </div>
 
         <div className=' flex flex-row gap-2'>
-          <Image className=' rounded-lg md:w-[40] md:h-[50]' src={ logo_icon} alt='logo_icon ' width={50} height={15}></Image>
+          <Image className=' rounded-lg w-[5] h-[5]' src={ logo_icon} alt='logo_icon ' width={40} height={15}></Image>
           <div>
-            <Link href='/' className=' text-[1em] font-semibold text-[#0C0B10]'>مكتبة نور العلم </Link>
-            <p>كل المعرفه في مكان واحد</p>
+            <Link href='/' className=' text-[10px] md:text-[1em] font-semibold text-[#0C0B10]'>مكتبة نور العلم </Link>
+            <p className=' text-[8px] md:text-[10px]'>كل المعرفه في مكان واحد</p>
           <p></p>
           </div>
         </div>
@@ -83,7 +83,7 @@ function Hedear() {
         </div>
         
 
-        <div className=' flex flex-row gap-6 z-50 '>
+        <div className=' flex flex-row md:gap-6 gap-4 z-50 '>
         {/**<DarkModeButton/> */}   
           <div className=' flex flex-row items-center justify-center'>
             {!user && <Link href='/sign-in' className=' border-b-2 p-3 text-sm rounded-md text-[#0C0B10]'>تسجيل الدخول</Link>}
@@ -92,12 +92,12 @@ function Hedear() {
 
           </div>
                     
-          <button onClick={handelclick} className='hover:bg-[#0C0B10] hover:border-[#0C0B10] font-bold bg-white border-[#ffe695] border-[1px] text-[#ffd447] py-2 px-3 rounded-lg shadow-sm text-sm'>
+          <button onClick={handelclick} className='hover:bg-[#0C0B10] hover:border-[#0C0B10] font-bold bg-white border-[#ffe695] border-[1px] text-[#ffd447] py-2 px-3 py rounded-lg shadow-sm text-sm'>
             ملخصاتك بذكاء
           </button>
           <button>
           
-            <Image src={search} alt='search_icon' width={20}/>
+            <Image className=' hidden md:flex' src={search} alt='search_icon' width={20}/>
           </button>
         </div>
 

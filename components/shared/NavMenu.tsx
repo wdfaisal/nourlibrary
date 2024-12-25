@@ -58,7 +58,7 @@ export function NavMenu() {
   return (
     <NavigationMenu className=" gap-0 tracking-tighter" dir="rtl" >
       <NavigationMenuList >
-      <NavigationMenuItem className=" bg-transparent  text-md">
+      <NavigationMenuItem className=" bg-transparent  text-[1em]">
           <Link href="/Docs" legacyBehavior passHref>
             <NavigationMenuLink  className={navigationMenuTriggerStyle()}>
             البحوث العلميه
@@ -66,7 +66,7 @@ export function NavMenu() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className=" bg-transparent text-md text-gray-500" >أقسام المكتبه</NavigationMenuTrigger>
+          <NavigationMenuTrigger className=" bg-transparent text-[1em] text-gray-500" >أقسام المكتبه</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
