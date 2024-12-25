@@ -29,12 +29,12 @@ const Footer = () => {
         </div>
 
         <div className=' h-full mx-auto text'>
-          <p className=' font-bold mb-2'>COMPANY</p>
+          <p className=' font-bold mb-2'>أدوات الذكاء الاصطناعي</p>
           <ul className=' flex flex-col gap-1'>
-            <li className=' text-gray-300 text-sm font-sans'>About</li>
-            <li className=' text-gray-300 text-sm font-sans'>Press</li>
-            <li className=' text-gray-300 text-sm font-sans'>Work Here</li>
-            <li className=' text-gray-300 text-sm font-sans'>Legal</li>
+            <li className=' text-gray-300 text-sm font-sans'>تلخيص المقالات </li>
+            <li className=' text-gray-300 text-sm font-sans'>ناقش كتابك مع الذكاء الاصطناعي</li>
+            <li className=' text-gray-300 text-sm font-sans'>لخص مقالك</li>
+            <li className=' text-gray-300 text-sm font-sans'>اقتراح كتاب للقرائه</li>
             <li className=' text-gray-300 text-sm font-sans'>Privacy Policy</li>
             <li className=' text-gray-300 text-sm font-sans'>Terms of Service</li>
             <li className=' text-gray-300 text-sm font-sans'>Contact Us</li>
@@ -52,15 +52,15 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className=' hidden md:grid h-full  '>
-          <p className=' font-bold mb-10 uppercase'>Contributor</p>
+        <div className=' hidden md:grid  h-full  '>
+          <p className=' font-bold mb-10 uppercase'>المطورين</p>
           <Contarbraturs/>
         </div>
 
         
       </div>
       <div className='md:hidden h-full  '>
-          <p className=' font-bold mb-10 ml-10 uppercase'>Contributor</p>
+          <p className=' font-bold mb-10 ml-10 uppercase'>المطورين</p>
           <Contarbraturs/>
         </div>
       <div className=' py-5 px-5 border-t-[1px] border-gray-400 w-full'>

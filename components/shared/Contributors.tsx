@@ -16,34 +16,7 @@ const people = [
     image:
       "https://www.databayt.org/_next/image?url=%2Fcontributor%2Fseedon.jpg&w=96&q=75",
   },
-  {
-    id: 3,
-    name: "Ahmed Faisal",
-    designation: "Data Scientist",
-    image:
-      "https://avatars.githubusercontent.com/u/105755473?v=4",
-  },
-  {
-    id: 4,
-    name: "Osman",
-    designation: "UX Designer",
-    image:
-      "https://www.databayt.org/_next/image?url=%2Fcontributor%2Fabdout.jpg&w=96&q=75",
-  },
-  {
-    id: 5,
-    name: "Ahmed",
-    designation: "Soap Developer",
-    image:
-      "https://www.databayt.org/_next/image?url=%2Fcontributor%2Fmazin.jpg&w=96&q=75",
-  },
-  {
-    id: 6,
-    name: "Mohammed",
-    designation: "The Explorer",
-    image:
-      "https://www.databayt.org/_next/image?url=%2Fcontributor%2Fseedon.jpg&w=96&q=75",
-  },
+ 
 ];
 
 export default function AnimatedTooltipPreview() {

@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 import { Tajawal, Cairo } from 'next/font/google';
 
 import './globals.css'
+import Footer from '@/components/shared/Footer';
 
 
 const tajawal = Tajawal({
@@ -32,6 +33,7 @@ export default function RootLayout({
     <html lang="en" dir='rtl' >
       <body className={tajawal.className} >
         {children}
+        <Footer />
       </body>
     </html>
     </ClerkProvider>

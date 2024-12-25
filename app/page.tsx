@@ -17,7 +17,7 @@ export default function Home() {
       <Hotbooks/>
       <InfintCards/>
       <Cards/>
-      <Footer/>
+      
       
       
       
