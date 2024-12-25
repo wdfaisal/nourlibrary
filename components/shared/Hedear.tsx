@@ -15,25 +15,25 @@ import { UserButton, useUser } from '@clerk/nextjs'
 
 const loadingStates = [
   {
-    text: "Enter your company info",
+    text: "أرفع كتابك ",
   },
   {
-    text: "Selact your tools",
+    text: "اسأل",
   },
   {
-    text: "Meeting The mantour",
+    text: "ناقش ",
   },
   {
-    text: "Install it in your pc",
+    text: "حاور ",
   },
   {
-    text: "Start automation",
+    text: "لخص",
   },
   {
-    text: "Congratlation all done",
+    text: "مع الذكاء الصناعي",
   },
   {
-    text: "You wiil be redairct now",
+    text: "بسيطة صااااح",
   },
  
 ];
@@ -44,7 +44,7 @@ function Hedear() {
   const [loading, setLoading] = useState(false);
   const handelclick =()=>{
     setLoading (true);
-    setTimeout(()=>{setLoading(false); router.replace('/Docs')},17000)
+    setTimeout(()=>{setLoading(false); router.replace('/Category')},16000)
   }
 
   const {user} =useUser()
