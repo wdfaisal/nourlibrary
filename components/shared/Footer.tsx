@@ -15,7 +15,7 @@ const Footer = () => {
           <Image src={logo_icon} className=' rounded-md' alt='logoicon 'width={35} height={25}/>
           <h1 className='text-xl font-bold tracking-tighter'>مكتبة نور العلم</h1>
           </div>
-          <p className='pl-1 text-gray-300 md:text-[10px] text-[8px] font-sans leading-4 md:w-56 w-40'> An open source, publicly traded entity that aim to be the go-to destination for businesses seeking automation solutions.</p>
+          <p className='pl-1 text-gray-300 md:text-[10px] text-[8px] font-sans leading-4 md:w-56 w-40'> مكتبة الكترونيه تحتوي على العديد من الكتب من مختلف المجالات بدعم من الذكاء الاصطناعي لتسهيل عمليه القارئه</p>
         </div>
 
         <div className=' h-full mx-auto '>
@@ -35,20 +35,16 @@ const Footer = () => {
             <li className=' text-gray-300 text-sm font-sans'>ناقش كتابك مع الذكاء الاصطناعي</li>
             <li className=' text-gray-300 text-sm font-sans'>لخص مقالك</li>
             <li className=' text-gray-300 text-sm font-sans'>اقتراح كتاب للقرائه</li>
-            <li className=' text-gray-300 text-sm font-sans'>Privacy Policy</li>
-            <li className=' text-gray-300 text-sm font-sans'>Terms of Service</li>
-            <li className=' text-gray-300 text-sm font-sans'>Contact Us</li>
-            <li className=' text-gray-300 text-sm font-sans'>Cookie Policy</li>
+           
           </ul>
         </div>
 
         <div className=' h-full mx-auto text'>
-          <p className=' font-bold mb-2'>PRODUCTS</p>
+          <p className=' font-bold mb-2'>من نحن</p>
           <ul className=' flex flex-col gap-1'>
-            <li className=' text-gray-300 text-sm font-sans'>Teams</li>
-            <li className=' text-gray-300 text-sm font-sans'>Advertising</li>
-            <li className=' text-gray-300 text-sm font-sans'>Collectives</li>
-            <li className=' text-gray-300 text-sm font-sans'>Talent</li>
+            <li className=' text-gray-300 text-sm font-sans'>الحقوق</li>
+            <li className=' text-gray-300 text-sm font-sans'>اللوائح والقوانين</li>
+            <li className=' text-gray-300 text-sm font-sans'>المصادر والمراجع</li>
           </ul>
         </div>
 

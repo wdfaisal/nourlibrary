@@ -10,7 +10,7 @@ function Hotbooks(props: any) {
     return (
       <div className='max-container flex flex-col md:mt-[15] py-10 px-10 pt-5 mt-10 items-center h-auto lg:min-h-[80vh] bg-[#F1F1F1] '>
           <div className=' flex flex-col items-start w-full justify-start gap-2 pt-5 lg:mx-5'>
-              <h1 className=' text-2xl tracking-tighter text-wrap text-center font-bold lg:text-5xl text-[#0C0B10]'>اكتشف الكتب الاكثر مشاهدة<br/><span className='text-[#ffe695]'>اقسام مكتبتنا الإلكترونية</span></h1>
+              <h1 className=' text-2xl tracking-tighter text-wrap text-center font-bold lg:text-5xl text-[#0C0B10]'>اكتشف الكتب الاكثر مشاهدة<br/><span className='text-[#ffe695] text-start'>اقسام مكتبتنا الإلكترونية</span></h1>
               <p className=' text-gray-500 text-md mt-1'>اكثر من 12الف كتاب من مختلفه المجالات</p>
           </div>
           <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-3 lg:gap-5 items-center justify-center mt-12 '>

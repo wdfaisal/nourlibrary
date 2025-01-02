@@ -11,8 +11,8 @@ const people = [
   },
   {
     id: 2,
-    name: "Mazin",
-    designation: "Product Manager",
+    name: "safi",
+    designation: "CS",
     image:
       "https://www.databayt.org/_next/image?url=%2Fcontributor%2Fseedon.jpg&w=96&q=75",
   },
