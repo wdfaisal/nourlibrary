@@ -20,6 +20,8 @@ import {
 
 function CartDrawer() {
     const {user} =useUser()
+
+   
   return (
     <Drawer>
 
@@ -61,14 +63,14 @@ function CartDrawer() {
     
             <DrawerFooter>
               
-                <div className=' flex flex-row border-[1px] w-72 py-2 px-10 rounded-xl'>
+                <div className=' flex flex-row border-[1px] justify-around items-center w-72 py-2 px-10 rounded-xl'>
                 { user &&
                 <>
                   <div>
-                    <p className=' text-xl '>{user.fullName}</p>
+                    <p className=' text-xl  '>{user.fullName}</p>
                   </div>
 
-                  <div>
+                  <div >
                     <UserButton/>
                   </div>
                 </>
@@ -83,7 +85,7 @@ function CartDrawer() {
                 </div>
                 
                 <DrawerClose>
-                    <button className='border-[1px] w-72 py-2 px-10 mt-5  bg-black text-white text-md font-bold rounded-xl'>إغلاق</button>
+                    <button className='border-[1px] w-72 py-2 px-10 mt-4  bg-black text-white text-md font-bold rounded-xl'>إغلاق</button>
                 </DrawerClose>
 
             </DrawerFooter>
