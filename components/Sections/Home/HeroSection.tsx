@@ -52,7 +52,7 @@ function HeroSection() {
                               أسرع وأوضح!".
                           </motion.span>
 
-                          <br /> <br /><p className=' md text-xl font-bold'> محتوى كاتبك اومقالك بسرعة ودقة مع الذكاء الاصطناعي <span className='text-[#ffe695]'>اسأل, حاور, ناقش </span></p> 
+                          <br /> <br /><p className=' text-md '>   اسأل, حاور, ناقش  محتوى كاتبك اومقالك بسرعة ودقة مع الذكاء الاصطناعي</p> 
                           </motion.h1>
                           
                         </>

@@ -39,22 +39,22 @@ function CartDrawer() {
 
             <div dir='rtl' className=' max-h-52 w-[95%] overflow-y-scroll' >
                 
-                <button className=" flex gap-5 items-center max-h-60 w-32 mx-10 my-5 border-b-2 py-3 px-10">
-                    <p className=' text-xl font-bold '>اقسام المكتبة </p>
+                <button className=" flex gap-5 items-center max-h-60 w-72 mx-10 my-5 border-b-2 py-3 px-10">
+                    <a href='/Books' className=' text-md '>اقسام الكتب </a>
                     
                 </button>
               
-                <button className=" flex gap-5 items-center max-h-60 mx-10 my-5 border-b-2 py-3 px-10">
-                    <p className=' text-xl font-bold '>اقسام المكتبة </p>
+                <button className=" flex gap-5 items-center max-h-60 w-72 mx-10 my-5 border-b-2 py-3 px-10">
+                    <a href="/" className=' text-md  '>أدوات الذكاء الاصطناعي</a>
                     
                 </button>
               
-                <button className=" flex gap-5 items-center max-h-60 mx-10 my-5 border-b-2 py-3 px-10">
-                    <p className=' text-xl font-bold '>اقسام المكتبة </p>
+                <button className=" flex gap-5 items-center max-h-60 w-72 mx-10 my-5 border-b-2 py-3 px-10">
+                    <a href="/" className=' text-md  '>المقالات والبجوث العلميه</a>
                     
                 </button>
-                <button className=" flex gap-5 items-center max-h-60 mx-10 my-5 border-b-2 py-3 px-10">
-                    <p className=' text-xl font-bold '>اقسام المكتبة </p>
+                <button className=" flex gap-5 items-center max-h-60 w-72 mx-10 my-5 border-b-2 py-3 px-10">
+                    <a href="/" className=' text-md '>القصص والروايات</a>
                     
                 </button>
               
@@ -77,7 +77,7 @@ function CartDrawer() {
                 }
                 {!user&&
                 <div className=' flex justify-center items-center'>
-                  <a className=' text-center text-md '>تسجيل الدخول </a>
+                  <a href='/sign-in' className=' text-center text-md '>تسجيل الدخول </a>
 
                 </div>
                 
