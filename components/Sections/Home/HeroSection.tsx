@@ -48,11 +48,11 @@ function HeroSection() {
                             initial={{opacity:0}}
                             animate={{opacity:100}}
                             transition={{duration:2 ,delay:1.2 }}
-                            className="text-3xl md:text-[3rem] font-bold mt-1 leading-none text-[#ffe695]">
+                            className="text-3xl md:text-[3.5rem] font-bold mt-1 leading-none text-[#ffe695]">
                               أسرع وأوضح!".
                           </motion.span>
 
-                          <br /> <br />استمتع بتلخيص محتوى الكتب والمقالات بسرعة ودقة باستخدام الذكاء الاصطناعي 
+                          <br /> <br /><p className=' md text-xl font-bold'> محتوى كاتبك اومقالك بسرعة ودقة مع الذكاء الاصطناعي <span className='text-[#ffe695]'>اسأل, حاور, ناقش </span></p> 
                           </motion.h1>
                           
                         </>

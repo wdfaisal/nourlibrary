@@ -9,7 +9,7 @@ import  { useState } from "react";
 import { MultiStepLoader as Loader } from "@/components/ui/multi-step-loader";
 import { IconSquareRoundedX } from "@tabler/icons-react";
 import { useRouter } from 'next/navigation'
-import DarkModeButton from "@/components/ui/DarkModeButton"
+import CartDrawer from '../CartDrawer'
 import { UserButton, useUser } from '@clerk/nextjs'
 
 
@@ -53,7 +53,7 @@ function Hedear() {
  
   return (
     <>
-      <nav className='max-container-extra bg-white border-b-2 gap-3 fixed md:right-32 z-50 w-full py-5 flex items-center justify-between px-7   '>
+      <nav className='max-container-extra bg-white border-b-2 md:gap-3 fixed md:right-32 z-50 w-full py-5 flex items-center justify-between px-7   '>
 
           <div className=" absolute">
               {/* Core Loader Modal */}
@@ -83,22 +83,29 @@ function Hedear() {
         </div>
         
 
-        <div className=' flex flex-row md:gap-6 gap-4 z-50 '>
-        {/**<DarkModeButton/> */}   
+        <div className=' flex flex-row md:gap-6 gap-2 z-50 '>
+  
           <div className=' flex flex-row items-center justify-center'>
-            {!user && <Link href='/sign-in' className=' border-b-2 p-3 text-sm rounded-md text-[#0C0B10]'>تسجيل الدخول</Link>}
-            
+            {!user && 
+            <Link href='/sign-in' className=' hidden md:flex border-b-2 p-3 text-sm rounded-md text-[#0C0B10]'>تسجيل الدخول</Link>
+            }
+            <div className=' hidden md:flex'>
             <UserButton />
+            </div>
 
           </div>
                     
-          <button onClick={handelclick} className='hover:bg-[#0C0B10] hover:border-[#0C0B10] font-bold bg-white border-[#ffe695] border-[1px] text-[#ffd447] py-2 px-3 py rounded-lg shadow-sm text-sm'>
+          <button onClick={handelclick} className='hover:bg-[#0C0B10] hover:border-[#0C0B10] font-bold bg-white border-[#ffe695] border-[1px] text-[#ffd447] py-2 px-4 py rounded-lg shadow-sm text-sm'>
             ملخصاتك بذكاء
           </button>
           <button>
-          
             <Image className=' hidden md:flex' src={search} alt='search_icon' width={20}/>
           </button>
+          <div className='md:hidden flex justify-center '>
+            <CartDrawer />
+          </div>
+
+          
         </div>
 
       
