@@ -23,23 +23,9 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "صمم ملخصاتك بطريقتك اسأل الذكاء الاصطناعي من كتابك ",
   },
-  {
-    title: "Doc",
-    href: "/print",
-    description:
-      "you can start now for free take the road end enplemant in your company",
-  },
-  {
-    title: "Contrbuite",
-    href: "/docs",
-    description:
-    "you can start now for free take the road end enplemant in your company",
-  },
-  {
-    title: "Contrbuite",
-    href: "/docs/primitives/scroll-area",
-    description: "you can start now for free take the road end enplemant in your company",
-  },
+  
+  
+ 
 ]
 
 export function NavMenu() {
@@ -61,7 +47,7 @@ export function NavMenu() {
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted backimg p-6 no-underline outline-none focus:shadow-md"
-                    href="/Summary"
+                    href="/"
                   >
                     {/*<Icons.logo className="h-6 w-6" />*/}
                     <div className="mb-2 mt-4 text-lg font-medium">
@@ -79,8 +65,8 @@ export function NavMenu() {
               <ListItem href="https://onlinebooks-ruddy.vercel.app/" title="مكتبة القراءه اون لاين">
               اقرء الكتاب اون لاين 
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Community">
-              you can start now for free take the road end enplemant in your company
+              <ListItem href="/" title="اقسام الكتب">
+              اقرء الكتاب اون لاين 
               </ListItem>
             </ul>
           </NavigationMenuContent>
