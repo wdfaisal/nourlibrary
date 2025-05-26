@@ -8,9 +8,10 @@ import { Tajawal, Cairo } from 'next/font/google';
 
 import './globals.css'
 import Footer from '@/components/shared/Footer';
+import Hedear from '@/components/shared/Hedear';
 
 
-const tajawal = Tajawal({
+const tajiawal = Tajawal({
   weight: ['200','300','400','500','700'],
   subsets: ['arabic'],
 
@@ -31,10 +32,12 @@ export default function RootLayout({
     <>
     <ClerkProvider>
     <html lang="en" dir='rtl' >
-      <body className={tajawal.className} >
+      <body className={tajiawal.className} >
+        <Hedear/>
         {children}
-        <Footer />
+        <Footer/>
       </body>
+      
     </html>
     </ClerkProvider>
     </>

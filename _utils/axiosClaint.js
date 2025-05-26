@@ -7,7 +7,7 @@ const apiurl ='http://localhost:1337/api'
 const axiosclient = axios.create({
     baseURL : apiurl,
     headers :{
-        Authorization : 'Bearer ${apikey}'
+        Authorization : `Bearer  ${apikey}`
     }
 });
 

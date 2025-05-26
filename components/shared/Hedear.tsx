@@ -44,7 +44,7 @@ function Hedear() {
   const [loading, setLoading] = useState(false);
   const handelclick =()=>{
     setLoading (true);
-    setTimeout(()=>{setLoading(false); router.replace('/Category')},16000)
+    setTimeout(()=>{setLoading(false); router.replace('https://ai-pdf-notes-nine.vercel.app/')},16000)
   }
 
   const {user} =useUser()

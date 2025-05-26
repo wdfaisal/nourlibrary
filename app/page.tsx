@@ -13,7 +13,7 @@ export default function Home() {
       <Hedear />
       <HeroSection/>
       <AboutSection/>
-      <Hotbooks/>
+      <Hotbooks />
       
       
       

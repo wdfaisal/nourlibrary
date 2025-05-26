@@ -18,10 +18,10 @@ import {
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Get start ",
-    href: "/store",
+    title: "ملخصات كتبpdf مدعومه بالذكاء الاصطناعي",
+    href: "https://ai-pdf-notes-nine.vercel.app/",
     description:
-      "you can start now for free take the road end enplemant in your company",
+      "صمم ملخصاتك بطريقتك اسأل الذكاء الاصطناعي من كتابك ",
   },
   {
     title: "Doc",
@@ -39,18 +39,6 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Contrbuite",
     href: "/docs/primitives/scroll-area",
     description: "you can start now for free take the road end enplemant in your company",
-  },
-  {
-    title: "Contrbuite",
-    href: "/docs/primitives/tabs",
-    description:
-    "you can start now for free take the road end enplemant in your company",
-  },
-  {
-    title: "Contrbuite",
-    href: "/docs/primitives/tooltip",
-    description:
-    "you can start now for free take the road end enplemant in your company",
   },
 ]
 
@@ -73,7 +61,7 @@ export function NavMenu() {
                 <NavigationMenuLink asChild>
                   <a
                     className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted backimg p-6 no-underline outline-none focus:shadow-md"
-                    href="/Category"
+                    href="/Summary"
                   >
                     {/*<Icons.logo className="h-6 w-6" />*/}
                     <div className="mb-2 mt-4 text-lg font-medium">
@@ -85,11 +73,11 @@ export function NavMenu() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/Docs" title="Get start">
-              you can start now for free take the road end enplemant in your company
+              <ListItem href="/LinkSummray" title="تلخيص موقع بإستخدام رابط ">
+              ادخل رابط الموقع او المقال لنقوم بإسخراج مستخلص لك
               </ListItem>
-              <ListItem href="/Docs/installation" title="Club">
-              you can start now for free take the road end enplemant in your company
+              <ListItem href="https://onlinebooks-ruddy.vercel.app/" title="مكتبة القراءه اون لاين">
+              اقرء الكتاب اون لاين 
               </ListItem>
               <ListItem href="/docs/primitives/typography" title="Community">
               you can start now for free take the road end enplemant in your company
