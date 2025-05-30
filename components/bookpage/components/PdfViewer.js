@@ -10,13 +10,13 @@ const PdfViewer = ({ fileUrl }) => {
   }
 
   return (
-    <div className="w-full">
+    <div className=" h-[100vh] w-full">
       <iframe
         src={`${fileUrl}#toolbar=0`}
         title="PDF Viewer"
         height="100%"
         width="100%"
-        className="h-[90vh] border rounded-lg shadow-lg"
+        className="h-[100vh] border rounded-lg shadow-lg"
       />
     </div>
   );

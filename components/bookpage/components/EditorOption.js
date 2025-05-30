@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import {
   BoldIcon,
@@ -23,9 +24,9 @@ const EditorOption = ({ editor }) => {
   }
   const { user } = useUser();
 
-  const SearchAi = useAction(api.myActions.search);
+ const SearchAi =" " //useAction(api.myActions.search);
   const { fileId } = useParams();
-  const addNotes = useMutation(api.notes.AddNotes);
+  const addNotes = " "//useMutation(api.notes.AddNotes);
 
   // AI Button Click
   const onAiClick = async () => {

@@ -65,7 +65,7 @@ export function NavMenu() {
               <ListItem href="https://onlinebooks-ruddy.vercel.app/" title="مكتبة القراءه اون لاين">
               اقرء الكتاب اون لاين 
               </ListItem>
-              <ListItem href="/" title="اقسام الكتب">
+              <ListItem href="/Category" title="اقسام الكتب">
               اقرء الكتاب اون لاين 
               </ListItem>
             </ul>

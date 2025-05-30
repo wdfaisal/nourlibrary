@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect } from "react";
 import { EditorContent, useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
@@ -10,7 +11,7 @@ import { api } from "@/convex/_generated/api";
 
 const TextEditor = ({ fileId }) => {
   // Fetch notes from database
-  const notes = useQuery(api.notes.GetNotes, { fileId });
+  const notes = "hii" //useQuery(api.notes.GetNotes, { fileId });
 
   // Initialize editor
   const editor = useEditor({
