@@ -11,7 +11,7 @@ import { api } from "@/convex/_generated/api";
 
 const TextEditor = ({ fileId }) => {
   // Fetch notes from database
-  const notes = "hii" //useQuery(api.notes.GetNotes, { fileId });
+  const notes = "أسال الذكاء الاصطناعي" //useQuery(api.notes.GetNotes, { fileId });
 
   // Initialize editor
   const editor = useEditor({

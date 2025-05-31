@@ -15,7 +15,7 @@ import TextEditor from "@/components/bookpage/components/TextEditor";
 
 function page() {
     const pdfurl = "https://nourlibrary.vercel.app/Noor-Book.pdf"
-    const pdfurl1 = "https://http://nourlibrary.vercel.app/sammrized-book.pdf "
+    const pdfurl1 = "https://nourlibrary.vercel.app/sammrized-book.pdf "
     const pdfurl3 = "https://brilliant-mallard-146.convex.cloud/api/storage/1091ef0c-e02c-4fba-96db-71cddbb41f57"
 
     const  fileId  = "369e0b6b-abdc-41e6-a787-8c65aafbe091";

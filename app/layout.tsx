@@ -3,6 +3,8 @@ import {
   ClerkProvider,
 } from '@clerk/nextjs'
 import type { Metadata } from 'next'
+import Provider from "./provider";
+import { Toaster } from "@/components/bookpage/components/sonner";
 
 import { Tajawal, Cairo } from 'next/font/google';
 
@@ -34,7 +36,10 @@ export default function RootLayout({
     <html lang="en" dir='rtl' >
       <body className={tajiawal.className} >
         <Hedear/>
+        <Provider>
         {children}
+        </Provider>
+        <Toaster />
         <Footer/>
       </body>
       

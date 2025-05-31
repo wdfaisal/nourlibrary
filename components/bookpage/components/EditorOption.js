@@ -20,17 +20,18 @@ import { useUser } from "@clerk/nextjs";
 
 const EditorOption = ({ editor }) => {
   if (!editor) {
-    return <div>Loading Editor...</div>;
+    return <div>جاري تحميل المحرر...</div>;
   }
   const { user } = useUser();
 
- const SearchAi =" " //useAction(api.myActions.search);
-  const { fileId } = useParams();
-  const addNotes = " "//useMutation(api.notes.AddNotes);
+ const SearchAi = useAction(api.myActions.search);
+  const { fileId } = "369e0b6b-abdc-41e6-a787-8c65aafbe091" //useParams();
+  const addNotes = useMutation(api.notes.AddNotes);
 
   // AI Button Click
   const onAiClick = async () => {
     toast("AI is working...");
+    toast(fileId);
 
     const selectedText = editor.state.doc.textBetween(
       editor.state.selection.from,
@@ -59,7 +60,7 @@ const EditorOption = ({ editor }) => {
         .insertContentAt(editor.state.selection.to, formattedResult)
         .run();
 
-      toast.success("AI Response added!");
+      toast.success("تم اضافة الرد ");
     } catch (error) {
       console.error("Error fetching AI response:", error);
 
